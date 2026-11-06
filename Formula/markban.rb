@@ -1,28 +1,28 @@
 class Markban < Formula
   desc "Markdown board — a file-based work item tracker with CLI and local web UI"
   homepage "https://github.com/OliverOrchard/markban"
-  version "0.4.5"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/OliverOrchard/markban/releases/download/v0.4.5/markban-osx-arm64.tar.gz"
-      sha256 "ddce1128ffcf9e81d742024a75135f5b1fba3f86ab40d72a053d6c186693ad3e"
+      url "https://github.com/OliverOrchard/markban/releases/download/v0.5.0/markban-osx-arm64.tar.gz"
+      sha256 "3841555ad4287a18eb2501dce52da3ac4fc5c82693ab6f15e5709582440c5119"
     end
     on_intel do
-      url "https://github.com/OliverOrchard/markban/releases/download/v0.4.5/markban-osx-x64.tar.gz"
-      sha256 "4e684694df8db332e799e223bae478d204aaefc30e11a681bf70acf77c276ad6"
+      url "https://github.com/OliverOrchard/markban/releases/download/v0.5.0/markban-osx-x64.tar.gz"
+      sha256 "85d15adbb136ebe56e55a6def08c35b10101f286a927cbd6ccedc6ba1e5d28e6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/OliverOrchard/markban/releases/download/v0.4.5/markban-linux-x64.tar.gz"
-      sha256 "4d73f9fe3dff21c07b8c38b401f45f6d7dbb58c1369cf50e8227635fe11abc2a"
+      url "https://github.com/OliverOrchard/markban/releases/download/v0.5.0/markban-linux-x64.tar.gz"
+      sha256 "e2bd7336e601d6abc14f165cca902de53caf5a1df65560e57506e23283340c4f"
     end
     on_arm do
-      url "https://github.com/OliverOrchard/markban/releases/download/v0.4.5/markban-linux-arm64.tar.gz"
-      sha256 "bc45e9b14c1ca135944cadd16152d78445eefae574b30947b4a169f12f0dcd29"
+      url "https://github.com/OliverOrchard/markban/releases/download/v0.5.0/markban-linux-arm64.tar.gz"
+      sha256 "9aa4a197a1e2e5f8e524d3fc4756281614ae3ca6da66ccdcb01a75a3f1d5ca1e"
     end
   end
 
